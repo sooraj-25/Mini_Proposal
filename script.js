@@ -32,7 +32,7 @@ document.addEventListener('mousemove',(e)=>{
 
   // CREATE HEART ONLY EVERY 120ms
 
-  if(now - lastTrailTime > 200){
+  if(now - lastTrailTime > 120){
 
     createLoveTrail(
       e.clientX,
