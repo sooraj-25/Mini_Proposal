@@ -41,7 +41,7 @@ function createLoveTrail(x, y) {
   love.style.pointerEvents = 'none';
   love.style.zIndex = '9999';
   love.style.fontSize = (5 + Math.random() * 20) + 'px';
-  love.style.transition = 'transform 0.5s ease-out, opacity 1.2s ease-out';
+  love.style.transition = 'transform 1.2s ease-out, opacity 1.2s ease-out';
 
   document.body.appendChild(love);
 
