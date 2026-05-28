@@ -102,7 +102,7 @@ I have only one question left to ask...
 Will you marry me?
 
 — Forever yours,
-Suryaaa ❤️`;
+Suryaa ❤️`;
 
 let index = 0;
 
