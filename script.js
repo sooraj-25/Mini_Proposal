@@ -102,7 +102,7 @@ I have only one question left to ask...
 Will you marry me?
 
 — Forever yours,
-Sooraj ❤️`;
+Suryaaa ❤️`;
 
 let index = 0;
 
@@ -141,7 +141,7 @@ document.addEventListener('mousemove', (e) => {
 
     noBtn.style.transform = `translate(${-moveX}px, ${-moveY}px)`;
 
-    funnyText.innerHTML = 'Nice try Shehana 😭❤️';
+    funnyText.innerHTML = 'Nice try Moluuu 😭❤️';
   } else {
     noBtn.style.transform = 'translate(0px,0px)';
     funnyText.innerHTML = '';
