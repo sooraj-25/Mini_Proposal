@@ -24,8 +24,24 @@ function createPetal() {
 
 setInterval(createPetal, 300);
 
-document.addEventListener('mousemove', (e) => {
-  createLoveTrail(e.clientX, e.clientY);
+let lastTrailTime = 0;
+
+document.addEventListener('mousemove',(e)=>{
+
+  const now = Date.now();
+
+  // CREATE HEART ONLY EVERY 120ms
+
+  if(now - lastTrailTime > 120){
+
+    createLoveTrail(
+      e.clientX,
+      e.clientY
+    );
+
+    lastTrailTime = now;
+  }
+
 });
 
 function createLoveTrail(x, y) {
